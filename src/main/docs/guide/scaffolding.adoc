@@ -9,6 +9,8 @@ The _Fields_ plugin includes scaffolding templates you can use in your applicati
 grails install-form-fields-templates
 ----
 
+WARNING: This no longer works in Grails 3.x. See https://github.com/grails-fields-plugin/grails-fields/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20install-form-fields-templates[related issues].
+
 This will overwrite any _create.gsp_ and _edit.gsp_ files you have in `src/templates/scaffolding`.
 
 Alternatively, it's very easy to modify your existing scaffolding templates to use the _f:all_ tag or multiple _f:field_ tags.
